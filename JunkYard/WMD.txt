@@ -1,0 +1,29 @@
+﻿            Console.Clear();
+            Badge badge = new Badge();
+
+            Console.WriteLine("Please input a badge Id");
+            int inputBadgeId = int.Parse(Console.ReadLine());
+            badge.Id = inputBadgeId;
+
+            //to handle the collection here is use a while loop
+            //set up a bool value first
+            bool hasFilledDoorAccess = false;
+            while (hasFilledDoorAccess==false)
+            {
+                Console.WriteLine("Do you have door access y/n");
+                string inputDoorAccess = Console.ReadLine();
+
+                if (inputDoorAccess =="Y" || inputDoorAccess=="y")
+                {
+                    Console.WriteLine("Please input the door name");
+                    string inputDoorName= Console.ReadLine();
+                    badge.Doors.Add(inputDoorName);
+                }
+                if (inputDoorAccess == "N" || inputDoorAccess == "n")
+                {
+                    hasFilledDoorAccess = true;
+                }
+
+            }
+
+            _badgeList.AddBadgesToTheList(badge);

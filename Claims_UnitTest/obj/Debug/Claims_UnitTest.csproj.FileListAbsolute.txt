@@ -1,0 +1,14 @@
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Claims_UnitTest.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Claims_UnitTest.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\obj\Debug\Claims_UnitTest.csprojAssemblyReference.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\obj\Debug\Claims_UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\obj\Debug\Claims_UnitTest.csproj.CopyComplete
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\obj\Debug\Claims_UnitTest.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\obj\Debug\Claims_UnitTest.pdb

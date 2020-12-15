@@ -1,0 +1,7 @@
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\JunkYard\bin\Debug\JunkYard.exe.config
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\JunkYard\bin\Debug\JunkYard.exe
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\JunkYard\bin\Debug\JunkYard.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\JunkYard\obj\Debug\JunkYard.csprojAssemblyReference.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\JunkYard\obj\Debug\JunkYard.csproj.CoreCompileInputs.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\JunkYard\obj\Debug\JunkYard.exe
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\JunkYard\obj\Debug\JunkYard.pdb
