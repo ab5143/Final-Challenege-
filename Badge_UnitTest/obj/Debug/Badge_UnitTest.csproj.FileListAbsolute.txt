@@ -12,3 +12,5 @@ C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Badge_UnitTest\obj\Debug\Badge_UnitTest.csproj.CopyComplete
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Badge_UnitTest\obj\Debug\Badge_UnitTest.dll
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Badge_UnitTest\obj\Debug\Badge_UnitTest.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Badge_UnitTest\bin\Debug\Badge_Repository.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Badge_UnitTest\bin\Debug\Badge_Repository.pdb

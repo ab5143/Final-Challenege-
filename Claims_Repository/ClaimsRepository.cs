@@ -9,7 +9,7 @@ namespace Claims_Repository
     public class ClaimsRepository
     {
         private Queue<Claims> _listOfClaims = new Queue<Claims>();
-        private Claims claims = new Claims();
+      
         //CRUD
 
         //Create Claims

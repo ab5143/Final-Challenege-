@@ -1,9 +1,6 @@
 ﻿using Badge_Repository;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Badge_Console
 {
@@ -20,7 +17,7 @@ namespace Badge_Console
         private void Menu()
         {
 
-            //??
+            //
             bool keepRunning = true;
             while (keepRunning)
             {
@@ -29,9 +26,10 @@ namespace Badge_Console
                 Console.WriteLine("Select a Claims Menu:\n" +
 
                     "1. Add A Badge\n" +
-                    "2. Edit A Badge\n" +
-                    "3. List All Badges\n" +
-                    "4. Exit");
+                    "2. Add A Door\n" +
+                    "3. Delete a Door\n" +
+                    "4. List All Badges\n" +
+                    "5. Exit");
 
 
                 //Get the User's Input
@@ -41,19 +39,22 @@ namespace Badge_Console
                 switch (input)
                 {
                     case "1":
-                        //See All Claims
+                        //Add a Badge
                         AddABadge();
                         break;
                     case "2":
-                        // writeout to the console what you want user to do
-                        //paraemeter please enter the badged
+                        //Add a Door
                         AddDoorToBadge();
                         break;
                     case "3":
-                        // 
-                        ListAllBadges();
+                        //Delete a Door
+                        DeleteDoorToBadge();
                         break;
                     case "4":
+                        // List All Doors
+                        ListAllBadges();
+                        break;
+                    case "5":
                         //Exit 
                         Console.WriteLine("Goodbye!");
                         keepRunning = false;
@@ -109,7 +110,7 @@ namespace Badge_Console
 
 
 
-        //3.......................................List All Badges 
+        //4.......................................List All Badges 
         private void ListAllBadges()
         {
             Console.Clear();
@@ -128,10 +129,10 @@ namespace Badge_Console
 
         }
 
-        //2...............................Edit a Badge
+        //2...............................Add a Door
         public void AddDoorToBadge()
         {
-            Console.WriteLine("What Badge would you like to add too");
+            Console.WriteLine("What Badge would you like add door to ");
 
             int bId = int.Parse(Console.ReadLine());
 
@@ -139,6 +140,20 @@ namespace Badge_Console
             string changeDoor = Console.ReadLine();
 
             _badgeList.AddADoor(bId, changeDoor);
+
+        }
+
+        //2...............................Add a Door
+        public void DeleteDoorToBadge()
+        {
+            Console.WriteLine("What Badge would you like to Add to  ");
+
+            int intDoor = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("What Door you want to Delete");
+            string deleteDoor = Console.ReadLine();
+
+            _badgeList.RemoveBadgeDoorFromList(intDoor, deleteDoor);
 
         }
 

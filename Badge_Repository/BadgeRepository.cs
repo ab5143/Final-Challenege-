@@ -9,6 +9,7 @@ namespace Badge_Repository
     public class BadgeRepository
 
     {
+           //Atif change the name of _badgelist since its not a list 
         private Dictionary<int, List<string>> _badgeList = new Dictionary<int, List<string>>();
         
 
@@ -47,7 +48,7 @@ namespace Badge_Repository
         }
 
 
-        //Helper METHOD Get Badge By ID
+        //Helper METHOD Get Badge By ID-----------------------------------------------------------------
         public KeyValuePair<int, List<string>> GetBadge(int numId)
         {
             KeyValuePair<int, List<string>> badgeNew = new KeyValuePair<int, List<string>>();
@@ -60,7 +61,7 @@ namespace Badge_Repository
             }
             return badgeNew;
         }
-
+            //=
         //Delete Method
 
         public bool RemoveBadgeDoorFromList(int dictKey, string doorName)

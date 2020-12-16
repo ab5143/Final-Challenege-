@@ -12,3 +12,5 @@ C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\obj\Debug\Claims_UnitTest.csproj.CopyComplete
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\obj\Debug\Claims_UnitTest.dll
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\obj\Debug\Claims_UnitTest.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Claims_Repository.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeFinalProjet\Cafe_Repository\Claims_UnitTest\bin\Debug\Claims_Repository.pdb
