@@ -51,7 +51,7 @@ namespace Badge_Repository
         //Helper METHOD Get Badge By ID-----------------------------------------------------------------
         public KeyValuePair<int, List<string>> GetBadge(int numId)
         {
-            KeyValuePair<int, List<string>> badgeNew = new KeyValuePair<int, List<string>>();
+            
             foreach (KeyValuePair<int, List<string>> badge in _badgeList)
             {
                 if (badge.Key == numId)
@@ -59,7 +59,7 @@ namespace Badge_Repository
                     return badge;
                 }
             }
-            return badgeNew;
+            return default;
         }
             //=
         //Delete Method

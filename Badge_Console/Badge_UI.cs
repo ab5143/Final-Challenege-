@@ -135,8 +135,8 @@ namespace Badge_Console
             Console.WriteLine("What Badge would you like add door to ");
 
             int bId = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("What Door you want to add");
+            
+            Console.WriteLine("Which other Door you want to add that is not listed");
             string changeDoor = Console.ReadLine();
 
             _badgeList.AddADoor(bId, changeDoor);
@@ -168,6 +168,7 @@ namespace Badge_Console
             Badge badgeThree = new Badge(3, new List<string>() { "C1", "C2", "C3", "C4", "C5" });
             Badge badgeFour = new Badge(4, new List<string>() { "D1", "D2", "D3", "D4" });
             Badge badgeFive = new Badge(5, new List<string>() { "E1", "E2", "E3", "E4", "E5" });
+
             _badgeList.AddBadgesToTheList(badgeOne);
             _badgeList.AddBadgesToTheList(badgeTwo);
             _badgeList.AddBadgesToTheList(badgeThree);
