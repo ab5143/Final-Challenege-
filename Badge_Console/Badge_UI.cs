@@ -115,13 +115,14 @@ namespace Badge_Console
         {
             Console.Clear();
             Dictionary<int, List<string>> listofBadges = _badgeList.GetBadgeList();
-            Console.WriteLine("Badge #     Doors ");
+            
             foreach (KeyValuePair<int, List<string>> item in listofBadges)
             {
-                Console.WriteLine($"  {item.Key}      ");
+                Console.WriteLine($"Badge:  {item.Key}      ");
+                Console.WriteLine("\n Door: ");
                 foreach (string doorN in item.Value)
                 {
-                    Console.WriteLine(doorN + ", ");
+                    Console.Write(doorN + ", ");
                 }
                 Console.WriteLine("\n");
 
@@ -132,18 +133,24 @@ namespace Badge_Console
         //2...............................Add a Door
         public void AddDoorToBadge()
         {
+            Console.Clear();
+            ListAllBadges();
+
             Console.WriteLine("What Badge would you like add door to ");
 
             int bId = int.Parse(Console.ReadLine());
-            
+
+            KeyValuePair<int, List<string>> selectedBadge = _badgeList.GetBadge(bId);
+
+
             Console.WriteLine("Which other Door you want to add that is not listed");
             string changeDoor = Console.ReadLine();
 
-            _badgeList.AddADoor(bId, changeDoor);
+            selectedBadge.Value.Add(changeDoor);
 
         }
 
-        //2...............................Add a Door
+        //2...............................Delete a Door
         public void DeleteDoorToBadge()
         {
             Console.WriteLine("What Badge would you like to Add to  ");
